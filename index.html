@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="pl"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mlody.xyz😎😎</title>
+    <script src="js/iconify.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/sweetalert.min.js"></script>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/lightbox.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/s1.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <div id="preloader">
+        <div class="loadingLogo" id="loadingLogo"></div>
+    </div>
+    <div class="wrapper">
+        <header class="navbar" id="navbar">
+            <div class="logo" id="logo">
+                𝗺𝗹𝗼𝗱𝘆.<span style="color: rgb(161, 68, 238); font-size: 26px;">𝘅𝘆𝘇</span>
+                <span class="logo_text">Powróć na górę</span>
+            </div>
+            <div class="navBtns" id="navBtns">
+                <ul class="links">
+                    <li class="link" id="l1">Main strona</li>
+                    <li class="link" id="l2">Social Media</li>
+                </ul>
+                <button class="contact" id="contact">Zakup</button>
+            </div>
+            <div class="menu" id="menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="mainInfo">
+                <h1 class="mainHeading">Sprawdź naszą <span style="color: rgb(161, 68, 238);">ofertę</span></h1>
+                <p class="mainParagraph" <span style="color:rgb(0, 0, 0)">Nie ufasz nam? <span style="color: rgb(161, 68, 238);">Mamy ponad 20 legit skryptów, a 3 paczki fivem</span>
+                    </p><p class="mainParagraph" <span style="color:rgb(0, 0, 0)">Sprawdź naszą ofertę klikając przycisk <span style="color: rgb(161, 68, 238);">na dole</span>
+                </p><div class="mainBtns">
+                    <button class="myWork" id="myWorkBtn">Klikaj poprostu</button>
+                    <input type="text" id="myInput" style="display: none;" value="raizu#0777">
+                    <div class="socialMedia" id="socialMedia">
+                        <a href="https://discord.gg/uq47WVmTwK" target="_blank_"><div class="socialIcon" id="sIcon1"><span class="iconify" data-icon="mdi:link-box-variant"></span></div></a>
+                        <div class="socialIcon" id="sIcon2 dc"><span class="iconify" data-icon="akar-icons:discord-fill" onclick="myFunction()"></span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mainImage"></div>
+            <div class="shape"></div>
+            <div class="shape2"></div>
+        </main>
+                </div>
+            </div>
+        </section>
+        <section class="contactSection" id="contactSection">
+            <form id="form" onsubmit="event.preventDefault(), formValidation();">
+                <h1>Dziękujemy za zaufanie!</h1> 
+                <div class="form">
+                    <div class="inputArea">
+                        <label for="nameInput">Discord id: <span class="iconify" data-icon="fa-solid:star-of-life"></span></label>
+                        <input type="text" id="nameInput" placeholder="Twoje discord id">
+                        <span class="error" id="nameError"></span>
+                        <label for="emailInput">E-mail: <span class="iconify" data-icon="fa-solid:star-of-life"></span></label>
+                        <input type="text" id="emailInput" placeholder="Twój email">
+                        <span class="error" id="emailError"></span>
+                        <label for="subjectInput">Usługa: <span class="iconify" data-icon="fa-solid:star-of-life"></span></label>
+                        <div class="subjectSelect">
+                            <input type="text" id="subjectInput" readonly placeholder="Wybierz usługę" value>
+                            <span class="iconify dropdownIcon" id="dropdownIcon" data-icon="akar-icons:chevron-down"></span>
+                            <ul class="subjectChoose" id="dropdown">
+                                <li class="subject" id="nitro"><span class="iconify" data-icon="ic:baseline-discord"> </span>Skrypt-esx_multicharacter</li>
+                                <li class="subject" id="nitrorok"><span class="iconify" data-icon="ic:baseline-discord"></span>soon</li> 
+                                <li class="subject" id="siedemboostow"><span class="iconify" data-icon="material-symbols:diamond-outline"></span>soon</li> 
+                                <li class="subject" id="czternascieboostow"><span class="iconify" data-icon="material-symbols:diamond-outline"></span>Paczka mlodziPackv1</li>
+                                <li class="subject" id="token"><span class="iconify" data-icon="material-symbols:key-rounded"></span>Paczka mlodziPackv2</li>
+                            </ul>
+                        </div>
+                        <span class="error" id="subjectError"></span>
+                    </div>
+                    <div class="messageArea">
+                        <label for="message">Płatność: <span class="iconify" data-icon="fa-solid:star-of-life"></span></label>
+                        <textarea name id="message" cols="30" rows="10" placeholder="Jeżeli płacisz PayPalem, wyślij pieniądze na mail: igorkocot009@gmail.com oraz wpisz tutaj swoim zdaniem jakiej metody płatności użyłeś oraz Imie i Nazwisko które masz na PayPalu. Natomiast jeżeli płacisz PaySafeCardem, wpisz tutaj jego kod i czekaj na wiadomość na discordzie. W celu płatności za pomocą blika, skontatkuj się z Mlody.xyz#2115. Jeśli chcesz, dopisz tutaj dodatkową wiadomość." maxlength="2000"></textarea>
+                        <span class="error" id="msgError"></span>
+                    </div>
+                </div>
+                <div class="formButtons">
+                    <input type="reset" value="Anuluj" id="reset">
+                              <button type="submit">Płatność</button>
+                </div>
+            </form>
+        </section>
+        <footer>
+           <h3>© 2023 𝗺𝗹𝗼𝗱𝘆.𝘅𝘆𝘇</h3>
+        </footer>
+    </div>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollToPlugin.min.js"></script>
+    <script>
+        const download = document.getElementById("downloadRaizuPL");
+        let keyPressed = function(e){
+            if(!e) e = window.event;
+            switch (e.keyCode)
+            {
+                case 80:
+                    download.click();
+            }
+        }
+        window.addEventListener("keyup", keyPressed, true);
+        window.addEventListener("keydown", keyPressed, true);
+    </script>
+    <script src="js/discord.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/form.js"></script>
+
+</body></html>
